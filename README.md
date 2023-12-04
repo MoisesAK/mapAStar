@@ -8,4 +8,7 @@
 # formato do arquivo
 ## 1 linha tamanho da matriz numero de colunas e linhas respectivamente
 ## 2 linha coordenadas de ponto de partida numero da coluna e numero da linha 
-## 3 linha em diante é o mapa onde os valores em -1 são cosiderados paredes intransponíveis
+## 3 linha em diante é o mapa 
+### os valores que compõem os caminhos são valores positivos
+### valores negativos serão considerados como barreiras intransponíveis e afetarão o calculo do percurso
+
